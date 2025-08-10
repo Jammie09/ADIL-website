@@ -1,0 +1,47 @@
+.partners {
+    background: #f5f5f5;
+}
+
+.partner-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.partner-item img {
+    max-width: 200px;
+    height: auto;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.partner-item img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.partners-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.partners-carousel .owl-nav button:hover {
+    background: #007bff;
+    color: white;
+}
+
+.partners-carousel .owl-nav .owl-prev {
+    left: -20px;
+}
+
+.partners-carousel .owl-nav .owl-next {
+    right: -20px;
+}
